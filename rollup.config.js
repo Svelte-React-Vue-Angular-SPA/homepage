@@ -7,12 +7,12 @@ import { terser } from "rollup-plugin-terser";
 const production = !process.env.ROLLUP_WATCH;
 
 export default {
-  input: "src/carter-website-homepage-cw.js",
+  input: "src/svelte-react-vue-angular-spa-homepage.js",
   output: {
     sourcemap: true,
     format: "system",
     name: null, // ensure anonymous System.register
-    file: "dist/carter-website-homepage-cw.js",
+    file: "dist/svelte-react-vue-angular-spa-homepage.js",
   },
   plugins: [
     svelte({

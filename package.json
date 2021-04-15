@@ -1,5 +1,5 @@
 {
-  "name": "@carter-website/homepage-cw",
+  "name": "@svelte-react-vue-angular-spa/homepage-cw",
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w",
